@@ -14,7 +14,7 @@ public class conexao{
     private Connection conexao;
     public Statement statement ;
     public ResultSet resultset;
-    String url="jdbc:ucanaccess://C:/Users/Santiago/Documents/Contatos.accdb";
+    String url="jdbc:ucanaccess://.//.//Contatos.accdb";
     
     
     public boolean conecta(){
